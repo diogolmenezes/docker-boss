@@ -1,0 +1,19 @@
+{
+  "name": "docker-boss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "clear;electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "dockerode": "^2.3.1"
+  }
+}
